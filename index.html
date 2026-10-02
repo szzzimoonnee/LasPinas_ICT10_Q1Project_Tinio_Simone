@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Receipt Generator</title>
+
+    <link rel="stylesheet"
+          href="https://pyscript.net/releases/2024.6.1/core.css">
+
+    <script type="module"
+            src="https://pyscript.net/releases/2024.6.1/core.js"></script>
+
+            <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="brand">
+            ICT 10 Q1 Project
+        </div>
+
+        <div>
+            <a href="index.html">Receipt Generator</a>
+            <a href="sku.html">SKU Generator</a>
+        </div>
+
+    </nav>
+
+    <main class="page">
+
+        <div class="container">
+
+            <section class="card">
+
+                <div class="card-header">
+                    <h1>Receipt Generator</h1>
+                    <p>OBMC Entrep Fair — Coffee Shop</p>
+                </div>
+
+                <div class="card-body">
+
+                    <div class="menu-title">
+                        ☕ Menu
+                    </div>
+
+
+                    <div class="item">
+                        <div class="item-left">
+                            <input type="checkbox" id="item1" value="99">
+                            <span>Americano</span>
+                        </div>
+
+                        <span class="price">₱99</span>
+                    </div>
+
+
+                    <div class="item">
+                        <div class="item-left">
+                            <input type="checkbox" id="item2" value="129">
+                            <span>Spanish Latte</span>
+                        </div>
+
+                        <span class="price">₱129</span>
+                    </div>
+
+
+                    <div class="item">
+                        <div class="item-left">
+                            <input type="checkbox" id="item3" value="189">
+                            <span>Cold Brew Malt</span>
+                        </div>
+
+                        <span class="price">₱189</span>
+                    </div>
+
+
+                    <div class="item">
+                        <div class="item-left">
+                            <input type="checkbox" id="item4" value="159">
+                            <span>Affogato</span>
+                        </div>
+
+                        <span class="price">₱159</span>
+                    </div>
+
+
+                    <div class="item">
+                        <div class="item-left">
+                            <input type="checkbox" id="item5" value="129">
+                            <span>Caramel Macchiato</span>
+                        </div>
+
+                        <span class="price">₱129</span>
+                    </div>
+
+
+                    <button py-click="create_order">
+                        🧾 Create Order
+                    </button>
+
+
+                    <div id="show" class="output">
+                        Your order summary will appear here.
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <div class="footer">
+        ICT 10 • 1st Quarter Project
+    </div>
+
+    <script type="py" src="./main.py"></script>
+
+</body>
+</html>

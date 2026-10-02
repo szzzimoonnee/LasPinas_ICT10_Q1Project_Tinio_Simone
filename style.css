@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #5A1E2B;
+    color: #222;
+}
+
+
+.navbar {
+    background: #3B0D18;
+    color: white;
+    padding: 15px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.brand {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+.page {
+    padding: 45px 20px;
+    min-height: 100vh;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+}
+
+
+.card-header {
+    background: linear-gradient(120deg, #7A263A, #4A1020);
+    color: white;
+    text-align: center;
+    padding: 28px 20px;
+}
+
+
+.card-header h1 {
+    margin: 0 0 6px;
+    font-size: 26px;
+}
+
+
+.card-header p {
+    margin: 0;
+    font-size: 13px;
+}
+
+
+.card-body {
+    padding: 25px;
+}
+
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+
+button {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    margin-top: 18px;
+    background: linear-gradient(120deg, #7A263A, #4A1020);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+button:hover {
+    opacity: 0.9;
+}
+
+
+.output {
+    margin-top: 20px;
+    padding: 17px;
+    min-height: 45px;
+    background: #f7f7fb;
+    border-radius: 7px;
+    text-align: center;
+}
+
+
+.menu-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    margin: 7px 0;
+}
+
+
+.item-left {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+
+.item-left input {
+    width: auto;
+}
+
+
+.price {
+    color: #7A263A;
+    font-weight: bold;
+}
+
+
+.footer {
+    background: #3B0D18;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 12px;
+}
